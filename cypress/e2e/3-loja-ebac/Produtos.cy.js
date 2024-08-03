@@ -2,7 +2,7 @@
 
 describe('Funcionalidade: Produtos', () => {
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('Sprodutos/')
     });
 
     it('Deve selecionar um produto da lista', () => {
@@ -12,9 +12,7 @@ describe('Funcionalidade: Produtos', () => {
           .eq(1)
          //.contains('Arcadio Gym Short')
          .click() 
-         cy.get('#tab-title-description > a').should('contain', 'descricao')
+         cy.get('product block').should('contain', 'Need an everyday action tee that helps keep you dry? ')
 
-         
-        
-    });
+          });
 });
