@@ -1,0 +1,24 @@
+[
+  {
+    "nomeProduto":"Aero Daily Fitness Tee",
+    "tamanho":"XL",
+    "cor": "Black",
+    "quantidade":5
+
+  },
+  {
+    "nomeProduto":"Josie Yoga Jacket",
+    "tamanho":"M",
+    "cor": "Blue",
+    "quantidade":1
+
+  },
+  {
+    "nomeProduto":"Livingston All-Purpose Tight",
+    "tamanho":"36",
+    "cor": "Red",
+    "quantidade":2
+
+  }
+
+]
